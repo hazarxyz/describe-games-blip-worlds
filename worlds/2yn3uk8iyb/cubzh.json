@@ -1,0 +1,29 @@
+{
+  "name": "Sky Isles Expedition",
+  "description": "A bright exploration world set high above the clouds, with floating voxel islands, crystal outcrops, bridges, launch pads, and a final sky shrine goal.",
+  "mode": "solo",
+  "entry": "cubzh.lua",
+  "generated_by": "describe.games/blip",
+  "systems": [
+    "spawn",
+    "terrain",
+    "resource_nodes",
+    "primary_tool_action",
+    "inventory",
+    "camera_follow",
+    "exploration_goal",
+    "landmarks",
+    "solo_loop",
+    "floating_terrain",
+    "jump_pads",
+    "cloud_bridges",
+    "fall_respawn"
+  ],
+  "resources": [
+    "crystal",
+    "stone",
+    "gold",
+    "sky_crystal",
+    "cloud_stone"
+  ]
+}
