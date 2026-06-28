@@ -1,0 +1,24 @@
+{
+  "name": "Crystal Pickaxe Valley",
+  "description": "A multiplayer-ready Blip mining farm where friends spawn in a bright voxel valley, walk between crystal fields, use pickaxes to harvest glowing resource nodes, fill their inventories, and travel together to a market at the far end of the path.",
+  "mode": "multiplayer_ready",
+  "entry": "cubzh.lua",
+  "generated_by": "describe.games/blip",
+  "systems": [
+    "spawn",
+    "terrain",
+    "resource_nodes",
+    "primary_tool_action",
+    "inventory",
+    "camera_follow",
+    "market_goal",
+    "farming_loop",
+    "server_join_scaffold",
+    "multiplayer_presence"
+  ],
+  "resources": [
+    "crystal",
+    "stone",
+    "gold"
+  ]
+}
