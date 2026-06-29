@@ -1,0 +1,72 @@
+{
+  "name": "Crystal Pickaxe Valley",
+  "description": "A tiny multiplayer-ready Blip valley where friends can walk around together, swing pickaxes, farm glowing crystal clusters, collect stone and gold, and bring resources to a glowing market pad.",
+  "mode": "multiplayer_ready",
+  "entry": "cubzh.lua",
+  "generated_by": "describe.games/blip",
+  "systems": [
+    "spawn",
+    "terrain",
+    "resource_nodes",
+    "primary_tool_action",
+    "inventory",
+    "camera_follow",
+    "market_goal",
+    "farming_loop",
+    "server_join_scaffold",
+    "multiplayer_presence"
+  ],
+  "resources": [
+    "crystal",
+    "stone",
+    "gold"
+  ],
+  "physics": {
+    "movementSpeed": 44,
+    "jumpPower": 72,
+    "miningReach": 8,
+    "cameraDistance": 46
+  },
+  "rules": {
+    "saleThreshold": 5,
+    "coinMultiplier": 3,
+    "winCondition": "build_and_sell_resources",
+    "logicTags": [
+      "inventory",
+      "market_goal",
+      "build_and_sell_resources",
+      "resource_respawn",
+      "friend_walkaround"
+    ]
+  },
+  "effects": {
+    "lighting": "neon",
+    "actionFeedback": [
+      "tool_swing",
+      "resource_pop",
+      "market_burst",
+      "crystal_glow",
+      "coin_ping"
+    ]
+  },
+  "code": {
+    "mechanicTags": [
+      "resource_loop",
+      "market_sale",
+      "hud_feedback",
+      "social_join_scaffold",
+      "pickaxe_mining",
+      "node_respawn",
+      "resource_respawn",
+      "speed_tuning"
+    ],
+    "runtimeHooks": [
+      "Client.OnStart",
+      "Client.Tick",
+      "Client.Action1",
+      "Client.Action2"
+    ],
+    "safety": "structured_no_raw_lua",
+    "sourceSummary": "Structured mechanic tags compile into allowlisted Blip runtime hooks for pickaxe mining, inventory gain, resource respawn, market selling, HUD feedback, camera follow, and multipla"
+  }
+}
