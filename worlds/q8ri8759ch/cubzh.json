@@ -1,6 +1,6 @@
 {
   "name": "Allied Beach Landing",
-  "description": "A multiplayer-ready voxel combat arena inspired by a WWII beach assault. Allied attackers land on a fortified beach and push through obstacles, trenches, and bunkers while Axis-style defenders hold the line. Real-world hate symbols and extremist iconography are excluded; teams ar",
+  "description": "A multiplayer-ready voxel combat arena inspired by a WWII beach assault. Allied attackers land on a fortified beach and push through obstacles, trenches, and bunkers while Axis-style defenders hold the line. Real-world hate symbols, extremist iconography, and propaganda are exclu",
   "mode": "multiplayer_ready",
   "entry": "cubzh.lua",
   "generated_by": "describe.games/blip",
