@@ -4,7 +4,7 @@ Config = {
     },
 }
 
-local resourceNames = { "crystal", "stone", "gold", "ammo", "medkits", "sandbags", "capture_points" }
+local resourceNames = { "crystal", "stone", "gold", "ammo", "medkits", "sandbags", "capture_points", "class_tokens", "wood", "metal" }
 local resourceNodes = {}
 local resourceAmounts = {}
 local resourceTypes = {}
