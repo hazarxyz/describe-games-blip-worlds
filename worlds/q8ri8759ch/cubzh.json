@@ -1,0 +1,42 @@
+{
+  "name": "Allied Beach Landing",
+  "description": "A multiplayer-ready voxel combat arena inspired by a WWII beach assault: Allied attackers storm a fortified shoreline while Axis defenders hold bunkers, trenches, and cliff positions. The setting uses fictionalized factions and avoids real-world hate symbols while keeping the bea",
+  "mode": "multiplayer_ready",
+  "entry": "cubzh.lua",
+  "generated_by": "describe.games/blip",
+  "systems": [
+    "spawn",
+    "terrain",
+    "resource_nodes",
+    "primary_tool_action",
+    "inventory",
+    "camera_follow",
+    "training_enemy",
+    "enemy_health",
+    "arena_goal",
+    "server_join_scaffold",
+    "team_selection",
+    "class_selection",
+    "projectile_combat",
+    "health",
+    "respawn",
+    "ammo_pickups",
+    "medkit_pickups",
+    "capture_zones",
+    "round_timer",
+    "team_score",
+    "defender_bunkers",
+    "attacker_beach_spawns",
+    "trench_cover",
+    "goal_feedback"
+  ],
+  "resources": [
+    "crystal",
+    "stone",
+    "gold",
+    "ammo",
+    "medkits",
+    "sandbags",
+    "capture_points"
+  ]
+}
