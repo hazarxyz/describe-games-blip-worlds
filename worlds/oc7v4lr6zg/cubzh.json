@@ -1,0 +1,29 @@
+{
+  "name": "Crystal Pickaxe Valley",
+  "description": "A cozy voxel farming valley where the player clears stone, harvests crystals, tends simple crop plots, and sells gathered goods at a glowing market pad.",
+  "mode": "solo",
+  "entry": "cubzh.lua",
+  "generated_by": "describe.games/blip",
+  "systems": [
+    "spawn",
+    "terrain",
+    "resource_nodes",
+    "primary_tool_action",
+    "inventory",
+    "camera_follow",
+    "market_goal",
+    "farming_loop",
+    "solo_loop",
+    "farm_plots",
+    "crop_nodes",
+    "harvest_action",
+    "goal_feedback"
+  ],
+  "resources": [
+    "crystal",
+    "stone",
+    "gold",
+    "wheat",
+    "carrot"
+  ]
+}
